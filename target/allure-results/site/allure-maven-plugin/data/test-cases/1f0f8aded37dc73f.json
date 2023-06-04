@@ -1,0 +1,58 @@
+{
+  "uid" : "1f0f8aded37dc73f",
+  "name" : "Несуществующий пользователь",
+  "fullName" : "org.example.LoginCourierTest.notExistingCourierReturnsError",
+  "historyId" : "4ec75553cae0d48e13656a2f60d541d3",
+  "time" : {
+    "start" : 1685875962367,
+    "stop" : 1685875963041,
+    "duration" : 674
+  },
+  "description" : "Если авторизоваться под несуществующим пользователем, запрос возвращает ошибку",
+  "descriptionHtml" : "<p>Если авторизоваться под несуществующим пользователем, запрос возвращает ошибку</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.LoginCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "notExistingCourierReturnsError"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.LoginCourierTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "16600@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f0f8aded37dc73f.json",
+  "parameterValues" : [ ]
+}

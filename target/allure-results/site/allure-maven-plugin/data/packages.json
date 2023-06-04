@@ -1,0 +1,152 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "org.example",
+    "children" : [ {
+      "name" : "ableToCreateCourier",
+      "uid" : "4c994e98dc3de7fb",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875946838,
+        "stop" : 1685875952140,
+        "duration" : 5302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "notAbleCreateTheSameCourier",
+      "uid" : "f40218cd2fa95e62",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875952271,
+        "stop" : 1685875953012,
+        "duration" : 741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "forCourierCreationAllFieldsRequired",
+      "uid" : "294748cf42720c87",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875953017,
+        "stop" : 1685875953191,
+        "duration" : 174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CreateOrdersTest[0]",
+      "uid" : "8e93ddb7741c2705",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875953225,
+        "stop" : 1685875953385,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CreateOrdersTest[1]",
+      "uid" : "a646548ef7f8de53",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875953388,
+        "stop" : 1685875953563,
+        "duration" : 175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CreateOrdersTest[2]",
+      "uid" : "362f742f9ca8439b",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875953565,
+        "stop" : 1685875953755,
+        "duration" : 190
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "CreateOrdersTest[3]",
+      "uid" : "741b96284c1bd318",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875953758,
+        "stop" : 1685875953924,
+        "duration" : 166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getOrdersTest",
+      "uid" : "1626081bdff01d01",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875953930,
+        "stop" : 1685875961052,
+        "duration" : 7122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierCouldLogin",
+      "uid" : "b534d703eb0ee4c3",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875961061,
+        "stop" : 1685875961720,
+        "duration" : 659
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "allFieldsRequired",
+      "uid" : "24f8191e93c93ded",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875961723,
+        "stop" : 1685875962359,
+        "duration" : 636
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "notExistingCourierReturnsError",
+      "uid" : "1f0f8aded37dc73f",
+      "parentUid" : "135bac64e72a6ce5347105d4ba2d38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685875962367,
+        "stop" : 1685875963041,
+        "duration" : 674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "org.example"
+  } ]
+}

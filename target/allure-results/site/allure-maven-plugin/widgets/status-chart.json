@@ -1,0 +1,111 @@
+[ {
+  "uid" : "f40218cd2fa95e62",
+  "name" : "Нельзя создать двух одинаковых курьеров",
+  "time" : {
+    "start" : 1685875952271,
+    "stop" : 1685875953012,
+    "duration" : 741
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b534d703eb0ee4c3",
+  "name" : "Курьер может авторизоваться",
+  "time" : {
+    "start" : 1685875961061,
+    "stop" : 1685875961720,
+    "duration" : 659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24f8191e93c93ded",
+  "name" : "Для авторизации нужно передать все обязательные поля",
+  "time" : {
+    "start" : 1685875961723,
+    "stop" : 1685875962359,
+    "duration" : 636
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a646548ef7f8de53",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1685875953388,
+    "stop" : 1685875953563,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "362f742f9ca8439b",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1685875953565,
+    "stop" : 1685875953755,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "294748cf42720c87",
+  "name" : "Чтобы создать курьера, нужно передать в ручку все обязательные поля",
+  "time" : {
+    "start" : 1685875953017,
+    "stop" : 1685875953191,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c994e98dc3de7fb",
+  "name" : "Курьера можно создать",
+  "time" : {
+    "start" : 1685875946838,
+    "stop" : 1685875952140,
+    "duration" : 5302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f0f8aded37dc73f",
+  "name" : "Несуществующий пользователь",
+  "time" : {
+    "start" : 1685875962367,
+    "stop" : 1685875963041,
+    "duration" : 674
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1626081bdff01d01",
+  "name" : "Получение списка заказов",
+  "time" : {
+    "start" : 1685875953930,
+    "stop" : 1685875961052,
+    "duration" : 7122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e93ddb7741c2705",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1685875953225,
+    "stop" : 1685875953385,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "741b96284c1bd318",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1685875953758,
+    "stop" : 1685875953924,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
