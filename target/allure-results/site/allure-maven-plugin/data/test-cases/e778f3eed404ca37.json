@@ -1,0 +1,87 @@
+{
+  "uid" : "e778f3eed404ca37",
+  "name" : "Чтобы создать курьера, нужно передать в ручку все обязательные поля",
+  "fullName" : "org.example.CreateCourierTest.forCourierCreationAllFieldsRequired",
+  "historyId" : "2f0a703cb15969deff74567e91b177b4",
+  "time" : {
+    "start" : 1686393637984,
+    "stop" : 1686393638342,
+    "duration" : 358
+  },
+  "description" : "Если одного из полей нет, запрос возвращает ошибку",
+  "descriptionHtml" : "<p>Если одного из полей нет, запрос возвращает ошибку</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Если одного из полей нет, запрос возвращает ошибку",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST запрос для создания курьера",
+      "time" : {
+        "start" : 1686393637985,
+        "stop" : 1686393638317,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "org.example.pojo.CreateCourierJson@20923380"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.CreateCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "forCourierCreationAllFieldsRequired"
+  }, {
+    "name" : "suite",
+    "value" : "Cоздание профиля для курьера"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "15874@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e778f3eed404ca37.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "f655dc967ed39d8d",
+  "name" : "Создание заказа",
+  "fullName" : "org.example.CreateOrderTest.CreateOrdersTest[2]",
+  "historyId" : "c1df943e4123958e966dabc6da5be216",
+  "time" : {
+    "start" : 1686393641842,
+    "stop" : 1686393642314,
+    "duration" : 472
+  },
+  "description" : "Можно указать один из цветов — BLACK или GREY, указать оба цвета или не указывать их вообще. При создании заказа должен возвращаться его трекинговый номер — track.",
+  "descriptionHtml" : "<p>Можно указать один из цветов — BLACK или GREY, указать оба цвета или не указывать их вообще. При создании заказа должен возвращаться его трекинговый номер — track.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Можно указать один из цветов — BLACK или GREY, указать оба цвета или не указывать их вообще. При создании заказа должен возвращаться его трекинговый номер — track.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST запрос для создания заказа",
+      "time" : {
+        "start" : 1686393641996,
+        "stop" : 1686393642309,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "{\"firstName\":\"Tianna\",\"lastName\":\"Raynor\",\"address\":\"5398 Runte Common\",\"color\":[\"BLACK\",\"GRAY\"],\"phone\":\"437-992-1534 x5091\",\"comment\":\"Customer Identity Agent\",\"rentTime\":7,\"deliveryDate\":\"10.06.2023\",\"metroStation\":\"Delaware\"}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.CreateOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "CreateOrdersTest[2]"
+  }, {
+    "name" : "suite",
+    "value" : "Cоздание заказа"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "15874@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f655dc967ed39d8d.json",
+  "parameterValues" : [ ]
+}

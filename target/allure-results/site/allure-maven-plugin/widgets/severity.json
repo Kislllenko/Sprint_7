@@ -1,0 +1,111 @@
+[ {
+  "uid" : "b6596b39bce44471",
+  "name" : "Получение списка заказов",
+  "time" : {
+    "start" : 1686393643034,
+    "stop" : 1686393650262,
+    "duration" : 7228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19299a5c678093f7",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1686393642321,
+    "stop" : 1686393643028,
+    "duration" : 707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f3c4234362b664c",
+  "name" : "Для авторизации нужно передать все обязательные поля",
+  "time" : {
+    "start" : 1686393651311,
+    "stop" : 1686393652255,
+    "duration" : 944
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f655dc967ed39d8d",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1686393641842,
+    "stop" : 1686393642314,
+    "duration" : 472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d92f85e8c96e4fb",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1686393638374,
+    "stop" : 1686393640920,
+    "duration" : 2546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f35948413a60c528",
+  "name" : "Курьера можно создать",
+  "time" : {
+    "start" : 1686393630965,
+    "stop" : 1686393636573,
+    "duration" : 5608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e778f3eed404ca37",
+  "name" : "Чтобы создать курьера, нужно передать в ручку все обязательные поля",
+  "time" : {
+    "start" : 1686393637984,
+    "stop" : 1686393638342,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44f5e3348c11c4e9",
+  "name" : "Нельзя создать двух одинаковых курьеров",
+  "time" : {
+    "start" : 1686393636726,
+    "stop" : 1686393637976,
+    "duration" : 1250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33d803815a4e3151",
+  "name" : "Создание заказа",
+  "time" : {
+    "start" : 1686393640937,
+    "stop" : 1686393641832,
+    "duration" : 895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "253f0aa0f2b69f4f",
+  "name" : "Курьер может авторизоваться",
+  "time" : {
+    "start" : 1686393650278,
+    "stop" : 1686393651303,
+    "duration" : 1025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f539e91e5e9de4dd",
+  "name" : "Несуществующий пользователь",
+  "time" : {
+    "start" : 1686393652258,
+    "stop" : 1686393652861,
+    "duration" : 603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
