@@ -1,28 +1,32 @@
 package org.example.code_api_data;
 
+import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.json.simple.JSONObject;
 import org.example.url.Uri;
+
 
 public class Courier {
 
-    public static Response create(JSONObject body) {
+    @Step("POST запрос для создания курьера")
+    public static Response create(Object body) {
         return RestAssured
                 .given()
                 .header("Content-Type", "application/json")
-                .body(body.toJSONString())
+                .body(body)
                 .when().post(Uri.COURIER);
     }
 
-    public static Response login(JSONObject body) {
+    @Step("POST запрос для логина курьера")
+    public static Response login(Object body) {
         return RestAssured
                 .given()
                 .header("Content-Type", "application/json")
-                .body(body.toJSONString())
+                .body(body)
                 .when().post(Uri.COURIER_LOGIN);
     }
 
+    @Step("DELETE запрос для удаления курьера")
     public static void delete(int id) {
         RestAssured
                 .delete(String.format(Uri.COURIER + "/%d", id));

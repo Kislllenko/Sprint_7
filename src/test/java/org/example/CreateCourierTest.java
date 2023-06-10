@@ -3,33 +3,18 @@ package org.example;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-import org.junit.Before;
 import org.junit.Test;
-import java.io.FileReader;
-import java.io.IOException;
-
+import org.example.pojo.CreateCourierJson;
 import org.example.code_api_data.Courier;
-
+import org.example.pojo.LoginCourierJson;
 import static org.hamcrest.Matchers.*;
 
+@DisplayName("Cоздание профиля для курьера")
 public class CreateCourierTest {
 
-    JSONObject createCourier;
-    JSONObject createWithEmptyField;
-    JSONObject loginCourier;
-
-    @Before
-    public void setUp() throws IOException, ParseException {
-        createCourier = (JSONObject)
-                (new JSONParser()).parse(new FileReader("src/test/resources/CreateCourier.json"));
-        createWithEmptyField = (JSONObject)
-                (new JSONParser()).parse(new FileReader("src/test/resources/CreateWithEmptyField.json"));
-        loginCourier = (JSONObject)
-                (new JSONParser()).parse(new FileReader("src/test/resources/LoginCourier.json"));
-    }
+    CreateCourierJson createCourier = new CreateCourierJson("Autotester", "1Qwe%", "Li");
+    CreateCourierJson createWithEmptyField = new CreateCourierJson("", "1Qwe%", "Li");
+    LoginCourierJson loginCourier = new LoginCourierJson("Autotester", "1Qwe%");
 
     @Test
     @DisplayName("Курьера можно создать")

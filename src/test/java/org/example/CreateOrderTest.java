@@ -1,5 +1,6 @@
 package org.example;
 
+import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
@@ -9,12 +10,15 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Collection;
 import java.util.HashMap;
 
 import static org.hamcrest.Matchers.hasKey;
 
+@DisplayName("Cоздание заказа")
 @RunWith(Parameterized.class)
 public class CreateOrderTest {
 
@@ -40,16 +44,19 @@ public class CreateOrderTest {
     @Description("Можно указать один из цветов — BLACK или GREY, указать оба цвета или не указывать их вообще. " +
             "При создании заказа должен возвращаться его трекинговый номер — track.")
     public void CreateOrdersTest() {
-        HashMap<String, Object> orderBody = new HashMap<>();
 
-        orderBody.put("firstName", "Naruto");
-        orderBody.put("lastName", "Uchiha");
-        orderBody.put("address", "Konoha, 142 apt.");
-        orderBody.put("metroStation", 4);
-        orderBody.put("phone", "+7 800 355 35 35");
-        orderBody.put("rentTime", 5);
-        orderBody.put("deliveryDate", "2020-06-06");
-        orderBody.put("comment", "Saske, come back to Konoha");
+        Faker faker = new Faker();
+        String deliveryDate =  new SimpleDateFormat("d.MM.yyyy").format(Calendar.getInstance().getTime());
+
+        HashMap<String, Object> orderBody = new HashMap<>();
+        orderBody.put("firstName", faker.name().firstName());
+        orderBody.put("lastName", faker.name().lastName());
+        orderBody.put("address", faker.address().streetAddress());
+        orderBody.put("metroStation", faker.address().state());
+        orderBody.put("phone", faker.phoneNumber().phoneNumber());
+        orderBody.put("rentTime", faker.number().randomDigit());
+        orderBody.put("deliveryDate", deliveryDate);
+        orderBody.put("comment", faker.name().title());
         orderBody.put("color", Arrays.asList(color));
 
         Response result = Orders.create(new JSONObject(orderBody));

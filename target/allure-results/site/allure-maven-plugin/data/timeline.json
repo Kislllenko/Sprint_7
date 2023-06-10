@@ -1,156 +1,156 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "MacBook-Pro-Sergej.local",
     "children" : [ {
-      "name" : "16600@MacBook-Pro-Sergej.local.main(1)",
+      "name" : "15874@MacBook-Pro-Sergej.local.main(1)",
       "children" : [ {
-        "name" : "Курьера можно создать",
-        "uid" : "4c994e98dc3de7fb",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1685875946838,
-          "stop" : 1685875952140,
-          "duration" : 5302
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Курьер может авторизоваться",
-        "uid" : "b534d703eb0ee4c3",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1685875961061,
-          "stop" : 1685875961720,
-          "duration" : 659
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Создание заказа",
-        "uid" : "362f742f9ca8439b",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
+        "uid" : "f655dc967ed39d8d",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
         "status" : "passed",
         "time" : {
-          "start" : 1685875953565,
-          "stop" : 1685875953755,
-          "duration" : 190
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Создание заказа",
-        "uid" : "a646548ef7f8de53",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1685875953388,
-          "stop" : 1685875953563,
-          "duration" : 175
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Для авторизации нужно передать все обязательные поля",
-        "uid" : "24f8191e93c93ded",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1685875961723,
-          "stop" : 1685875962359,
-          "duration" : 636
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Получение списка заказов",
-        "uid" : "1626081bdff01d01",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1685875953930,
-          "stop" : 1685875961052,
-          "duration" : 7122
+          "start" : 1686393641842,
+          "stop" : 1686393642314,
+          "duration" : 472
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Несуществующий пользователь",
-        "uid" : "1f0f8aded37dc73f",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
+        "uid" : "f539e91e5e9de4dd",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
         "status" : "passed",
         "time" : {
-          "start" : 1685875962367,
-          "stop" : 1685875963041,
-          "duration" : 674
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Нельзя создать двух одинаковых курьеров",
-        "uid" : "f40218cd2fa95e62",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1685875952271,
-          "stop" : 1685875953012,
-          "duration" : 741
+          "start" : 1686393652258,
+          "stop" : 1686393652861,
+          "duration" : 603
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Создание заказа",
-        "uid" : "8e93ddb7741c2705",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
+        "uid" : "5d92f85e8c96e4fb",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
         "status" : "passed",
         "time" : {
-          "start" : 1685875953225,
-          "stop" : 1685875953385,
-          "duration" : 160
+          "start" : 1686393638374,
+          "stop" : 1686393640920,
+          "duration" : 2546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Получение списка заказов",
+        "uid" : "b6596b39bce44471",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686393643034,
+          "stop" : 1686393650262,
+          "duration" : 7228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание заказа",
+        "uid" : "33d803815a4e3151",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686393640937,
+          "stop" : 1686393641832,
+          "duration" : 895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Курьер может авторизоваться",
+        "uid" : "253f0aa0f2b69f4f",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686393650278,
+          "stop" : 1686393651303,
+          "duration" : 1025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Курьера можно создать",
+        "uid" : "f35948413a60c528",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686393630965,
+          "stop" : 1686393636573,
+          "duration" : 5608
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Чтобы создать курьера, нужно передать в ручку все обязательные поля",
-        "uid" : "294748cf42720c87",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
+        "uid" : "e778f3eed404ca37",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
         "status" : "passed",
         "time" : {
-          "start" : 1685875953017,
-          "stop" : 1685875953191,
-          "duration" : 174
+          "start" : 1686393637984,
+          "stop" : 1686393638342,
+          "duration" : 358
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Создание заказа",
-        "uid" : "741b96284c1bd318",
-        "parentUid" : "54d301fa8b4d9fbf42be0a0d29d1c29e",
+        "uid" : "19299a5c678093f7",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
         "status" : "passed",
         "time" : {
-          "start" : 1685875953758,
-          "stop" : 1685875953924,
-          "duration" : 166
+          "start" : 1686393642321,
+          "stop" : 1686393643028,
+          "duration" : 707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Для авторизации нужно передать все обязательные поля",
+        "uid" : "7f3c4234362b664c",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686393651311,
+          "stop" : 1686393652255,
+          "duration" : 944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Нельзя создать двух одинаковых курьеров",
+        "uid" : "44f5e3348c11c4e9",
+        "parentUid" : "c7ff8e4d8a42454ddf4a694f17ddf762",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686393636726,
+          "stop" : 1686393637976,
+          "duration" : 1250
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "54d301fa8b4d9fbf42be0a0d29d1c29e"
+      "uid" : "c7ff8e4d8a42454ddf4a694f17ddf762"
     } ],
     "uid" : "7328bddb33320d2d2fc730b07348d13d"
-  } ]
+  } ],
+  "name" : "timeline"
 }

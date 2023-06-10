@@ -1,8 +1,8 @@
 {
   "total" : 4,
   "items" : [ {
-    "uid" : "02d818ba3ec2169079c765e7a6185c4c",
-    "name" : "org.example.CreateOrderTest",
+    "uid" : "f623f3a351be48bfbbe0294b1401e53d",
+    "name" : "Cоздание заказа",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 4
     }
   }, {
-    "uid" : "2567d188130b7ee6051ed169e3b9f12d",
-    "name" : "org.example.CreateCourierTest",
+    "uid" : "c8a9a3689085b4acc31b0590c1ab9b28",
+    "name" : "Cоздание профиля для курьера",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,8 +23,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "394eb1725e6c3d013581b4520de7c5c6",
-    "name" : "org.example.LoginCourierTest",
+    "uid" : "911d5d4f65a7ee6d5e33e51ab0ec70ff",
+    "name" : "Авторизация",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "d9cd9ab86d12bba6caa3e307b7bcc419",
-    "name" : "org.example.GetListOrdersTest",
+    "uid" : "edb7cf68ed84fd8e2639a67f7f0839fc",
+    "name" : "Получение списка заказов",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

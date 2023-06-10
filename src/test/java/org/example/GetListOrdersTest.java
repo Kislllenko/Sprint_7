@@ -7,6 +7,7 @@ import org.example.code_api_data.Orders;
 import org.junit.Test;
 import static org.hamcrest.Matchers.hasKey;
 
+@DisplayName("Получение списка заказов")
 public class GetListOrdersTest {
 
     @Test
