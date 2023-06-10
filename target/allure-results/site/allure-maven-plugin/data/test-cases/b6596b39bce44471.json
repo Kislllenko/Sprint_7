@@ -1,0 +1,84 @@
+{
+  "uid" : "b6596b39bce44471",
+  "name" : "Получение списка заказов",
+  "fullName" : "org.example.GetListOrdersTest.getOrdersTest",
+  "historyId" : "9578b89ba3b8cb1b2534c6d8bb75c167",
+  "time" : {
+    "start" : 1686393643034,
+    "stop" : 1686393650262,
+    "duration" : 7228
+  },
+  "description" : "В тело ответа должен возвращаться список заказов.",
+  "descriptionHtml" : "<p>В тело ответа должен возвращаться список заказов.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "В тело ответа должен возвращаться список заказов.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET запрос для получения всех заказов",
+      "time" : {
+        "start" : 1686393643035,
+        "stop" : 1686393650148,
+        "duration" : 7113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.GetListOrdersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrdersTest"
+  }, {
+    "name" : "suite",
+    "value" : "Получение списка заказов"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "15874@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6596b39bce44471.json",
+  "parameterValues" : [ ]
+}

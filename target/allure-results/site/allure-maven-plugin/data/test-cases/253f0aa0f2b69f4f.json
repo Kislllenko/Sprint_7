@@ -1,0 +1,141 @@
+{
+  "uid" : "253f0aa0f2b69f4f",
+  "name" : "Курьер может авторизоваться",
+  "fullName" : "org.example.LoginCourierTest.courierCouldLogin",
+  "historyId" : "5102516a0468f733e48d1a2032b08bea",
+  "time" : {
+    "start" : 1686393650278,
+    "stop" : 1686393651303,
+    "duration" : 1025
+  },
+  "description" : "Запрос возвращает правильный код ответа — 200. Успешный запрос возвращает \"id\", который необходим для удаления курьера",
+  "descriptionHtml" : "<p>Запрос возвращает правильный код ответа — 200. Успешный запрос возвращает &quot;id&quot;, который необходим для удаления курьера</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Запрос возвращает правильный код ответа — 200. Успешный запрос возвращает \"id\", который необходим для удаления курьера",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST запрос для создания курьера",
+      "time" : {
+        "start" : 1686393650278,
+        "stop" : 1686393650415,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "org.example.pojo.CreateCourierJson@444050a7"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST запрос для логина курьера",
+      "time" : {
+        "start" : 1686393650416,
+        "stop" : 1686393650928,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "org.example.pojo.LoginCourierJson@4f1f569a"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST запрос для логина курьера",
+      "time" : {
+        "start" : 1686393650950,
+        "stop" : 1686393651098,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "org.example.pojo.LoginCourierJson@4f1f569a"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "DELETE запрос для удаления курьера",
+      "time" : {
+        "start" : 1686393651113,
+        "stop" : 1686393651296,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "199486"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.example"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.LoginCourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "courierCouldLogin"
+  }, {
+    "name" : "suite",
+    "value" : "Авторизация"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "15874@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "253f0aa0f2b69f4f.json",
+  "parameterValues" : [ ]
+}
